@@ -1,0 +1,29 @@
+/*CONTAINER STYLING*/
+#stopwatch {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 640px;
+  margin: 0 auto;
+}
+/*TIME DISPLAY STYLING*/
+#timeDisplay {
+  width: 100%;
+  padding: 40px 0;
+  font-size: 96px;
+  font-weight: bold;
+  text-align: center;
+  background: black;
+  color: white;
+}
+/*BUTTONS STYLING*/
+#resetButton, #toggleButton {
+box-sizing: border-box;
+width: 50%;
+cursor: pointer;
+padding: 40px 0;
+border: 0;
+color: white;
+font-size: 40px;
+}
+#resetButton {background-color: red; }
+#toggleButton {background-color: green; }
